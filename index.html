@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics - Monitor your business on real-time</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header h-fit bg-no-repeat bg-center bg-cover bg-scroll relative" style="background-image: url('./img/bg-banner.png');">
+        <nav class="py-8 z-20 transition duration-500" id="nav">
+            <div class="container">
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="flex items-center space-x-0 lg:space-x-24">
+                        <div class="logo-wrapper">
+                            <a href="#" class="block">
+                                <img src="./img/logo-white.svg" class="block" alt="Logo"> 
+                            </a>
+                        </div>
+                        <div class="bg-white lg:bg-transparent w-full sm:w-2/3 lg:w-auto h-screen lg:h-auto flex flex-col lg:flex-row justify-center lg:justify-center items-center absolute top-0 left-0 -translate-x-full lg:translate-x-0 lg:static space-x-0 lg:space-x-6 space-y-8 lg:space-y-0 py-24 lg:py-0 shadow-2xl lg:shadow-none opacity-0 lg:opacity-100 rounded-r-sm z-20 transition duration-500" id="mobile-menu">
+                            <a href="#" class="text-lg lg:text-base text-secondary font-semibold lg:font-normal capitalize leading-5 hover:text-tertiary lg:hover:text-secondary transition duration-400">products</a>
+                            <a href="#" class="text-lg lg:text-base text-secondary font-semibold lg:font-normal capitalize leading-5 hover:text-tertiary lg:hover:text-secondary transition duration-400">pricing</a>
+                            <a href="#" class="text-lg lg:text-base text-secondary font-semibold lg:font-normal uppercase leading-5 hover:text-tertiary lg:hover:text-secondary transition duration-400">faq</a>
+                            <a href="#" class="text-lg lg:text-base text-secondary font-semibold lg:font-normal capitalize leading-5 hover:text-tertiary lg:hover:text-secondary transition duration-400">blog</a>
+                            <a href="#" class="text-lg lg:text-base text-secondary font-semibold lg:font-normal capitalize leading-5 hover:text-tertiary lg:hover:text-secondary transition duration-400">about</a>
+                            <a href="#" class="inline-block lg:hidden text-lg lg:text-base text-secondary font-semibold lg:font-normal leading-5 border border-secondary px-8 py-2 rounded-3xl hover:bg-white hover:text-tertiary lg:hover:text-primary hover:border-tertiary lg:hover:border-white transition duration-400">Sign up</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-end space-x-6">
+                        <a href="#" class="text-base text-secondary font-normal leading-5 ">Sign in</a>
+                        <a href="#" class="hidden lg:inline-block text-base text-secondary font-normal leading-5 border border-secondary px-8 py-2 rounded-3xl hover:bg-white hover:text-primary hover:border-white transition duration-400">Sign up</a>
+                        <!-- Hamburger menu -->
+                        <div class="ml-auto flex lg:hidden items-center z-20">
+                            <button class="hamburger w-6 h-6 focus:outline-none cursor-pointer relative mt-2 transition" id="menu-btn">
+                                <span class="line-top bg-secondary w-6 h-0.5 absolute top-0 left-0 transition"></span>
+                                <span class="line-middle bg-secondary w-6 h-0.5 absolute top-0 left-0 translate-y-[0.43rem] transition"></span>
+                                <span class="line-bottom bg-secondary w-6 h-0.5 absolute top-0 left-0 translate-y-[0.86rem] transition"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner -->
+        <div class="banner relative pt-2 sm:pt-20 pb-44 sm:pb-52 md:pb-40 lg:py-48 transition duration-1000">
+            <div class="container">
+                <div class="grid grid-cols-2 items-center gap-0 sm:gap-12 lg:gap-48">
+                    <div class="col-span-full md:col-span-1 flex flex-col justify-center order-2 md:order-1">
+                        <h1 class="text-2xl sm:text-3xl md:text-5xl text-white font-bold leading-[120%] mb-6">
+                            Monitor your business on real time dashboard
+                        </h1>
+                        <p class="text-lg text-secondary font-normal leading-[150%] mb-[3.4rem]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum<br class="hidden xxl:inline-block">
+                            nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae<br class="hidden xxl:inline-block">
+                            nibh nunc mattis imperdiet sed nullam. 
+                        </p>
+                        <div>
+                            <a href="#" class="inline-block bg-primary text-base text-white font-normal leading-5 px-16 py-3 border-none rounded-3xl hover:bg-white hover:text-primary transition duration-400">Try for free</a>
+                        </div>
+                    </div>
+                    <div class="col-span-full md:col-span-1 flex items-center justify-center static lg:absolute top-0 lg:bottom-0 xl:bottom-0 lg:-right-[10rem] xl:-right-[9.98rem] xxl:right-0 order-1 md:order-2">
+                        <img src="./img/img-banner.png" class="hidden lg:block lg:max-w-[80%] xl:max-w-[80%] xxl:max-w-full" alt="Banner image">
+                        <img src="./img/img-banner-2.png" class="block max-w-full lg:hidden" alt="Banner image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features section -->
+    <section class="py-8 lg:py-16 bg-transparent">
+        <div class="container">
+            <h2 class="text-2xl sm:text-3xl md:text-[2.5rem] text-tertiary text-center font-bold capitalize leading-8 sm:leading-[2.93rem] mb-8">main features</h2>
+            <p class="text-lg text-secondary text-center font-normal leading-[150%] mb-16 sm:mb-28">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam<br class="hidden xl:inline-block">
+                vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet. Id vel in nam malesuada.
+            </p>
+            <div class="grid grid-cols-3 gap-8 space-y-6 sm:space-y-0">
+                <div class="col-span-full sm:col-span-1 flex flex-col justify-center items-center">
+                    <div class="mb-6">
+                        <img src="./img/icon-1.svg" alt="Icon-1">
+                    </div>
+                    <h3 class="text-base text-tertiary font-bold capitalize leading-5 mb-3">monitoring 24/7</h3>
+                    <p class="text-base text-secondary text-center font-normal leading-[150%]">
+                        Lorem ipsum dolor sit amet, consectetur adipis<br class="hidden xl:inline-block">
+                        cing elit. Elementum nisi aliquet volutpat.
+                    </p>
+                </div>
+                <div class="col-span-full sm:col-span-1 flex flex-col justify-center items-center">
+                    <div class="mb-6">
+                        <img src="./img/icon-2.svg" alt="Icon-2">
+                    </div>
+                    <h3 class="text-base text-tertiary font-bold capitalize leading-5 mb-3">widget system</h3>
+                    <p class="text-base text-secondary text-center font-normal leading-[150%]">
+                        Sapien in etiam vitae nibh nunc mattis imperdiet<br class="hidden xl:inline-block">
+                        sed nullam. Vitae et, tortor pulvinar risus pulvinar
+                    </p>
+                </div>
+                <div class="col-span-full sm:col-span-1 flex flex-col justify-center items-center">
+                    <div class="mb-6">
+                        <img src="./img/icon-3.svg" alt="Icon-3">
+                    </div>
+                    <h3 class="text-base text-tertiary font-bold capitalize leading-5 mb-3">best performance</h3>
+                    <p class="text-base text-secondary text-center font-normal leading-[150%]">
+                        Lorem ipsum dolor sit amet, consectetur adipis<br class="hidden xl:inline-block">
+                        cing elit. Elementum nisi aliquet volutpat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Automated reports section -->
+    <section class="py-16">
+        <div class="container">
+            <div class="grid grid-cols-2 place-items-center gap-4">
+                <div class="col-span-full md:col-span-1 order-2 md:order-1">
+                    <h2 class="text-2xl sm:text-3xl md:text-[2.5rem] text-tertiary font-bold capitalize leading-8 sm:leading-[2.93rem] mb-8">automated reports<br class="hidden sm:inline-block"> & widget alerts</h2>
+                    <p class="text-lg text-secondary font-normal leading-[150%]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br class="hidden lg:inline-block">
+                        Elementum nisi aliquet volutpat pellentesque volutpat est.<br class="hidden lg:inline-block">
+                        Sapien in etiam vitae nibh nunc mattis imperdiet sed<br class="hidden lg:inline-block">
+                        nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                    </p>
+                </div>
+                <div class="col-span-full md:col-span-1 order-1 md:order-2">
+                    <img src="./img/report.png" alt="Report">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customizable section -->
+    <section class="pb-8 lg:py-16">
+        <div class="container">
+            <div class="grid grid-cols-2 place-items-center gap-4">
+                <div class="col-span-full md:col-span-1">
+                    <img src="./img/report-2.png" alt="Report2">
+                </div>
+                <div class="col-span-full md:col-span-1">
+                    <h2 class="text-2xl sm:text-3xl md:text-[2.5rem] text-tertiary font-bold capitalize leading-8 sm:leading-[2.93rem] mb-8">Fully customizable to<br class="hidden sm:inline-block">address your needs </h2>
+                    <p class="text-lg text-secondary font-normal leading-[150%]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br class="hidden lg:inline-block">
+                        Elementum nisi aliquet volutpat pellentesque volutpat est.<br class="hidden lg:inline-block">
+                        Sapien in etiam vitae nibh nunc mattis imperdiet sed<br class="hidden lg:inline-block">
+                        nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard section -->
+    <section class="py-8 lg:py-16">
+        <div class="container">
+            <div class="grid grid-cols-2 place-items-center gap-4">
+                <div class="col-span-full md:col-span-1 order-2 md:order-1">
+                    <h2 class="text-2xl sm:text-3xl md:text-[2.5rem] text-tertiary font-bold capitalize leading-8 sm:leading-[2.93rem] mb-8">pre-built dashboard templates</h2>
+                    <p class="text-lg text-secondary font-normal leading-[150%]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br class="hidden lg:inline-block">
+                        Elementum nisi aliquet volutpat pellentesque volutpat est.<br class="hidden lg:inline-block">
+                        Sapien in etiam vitae nibh nunc mattis imperdiet sed<br class="hidden lg:inline-block">
+                        nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                    </p>
+                </div>
+                <div class="col-span-full md:col-span-1 order-1 md:order-2">
+                    <img src="./img/report-3.png" alt="Report3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing plans & footer section -->
+    <footer class="bg-no-repeat bg-scroll bg-cover bg-center pt-64 md:pt-48 lg:pt-[18rem] pb-2 lg:pb-8" style="background-image: url('./img/bg-plans.png');">
+        <div class="container">
+            <h2 class="text-2xl sm:text-3xl md:text-[2.5rem] text-white text-center font-bold capitalize leading-8 sm:leading-[2.93rem] mb-8">pricing plans</h2>
+            <p class="text-lg text-secondary text-center font-normal leading-[150%] mb-24">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet<br class="hidden lg:inline-block">volutpat pellentesque volutpat est.
+            </p>
+            <div class="grid grid-cols-3 place-items-stretch sm:place-items-center md:place-items-stretch gap-y-12 md:gap-6 lg:gap-12 xl:gap-32">
+                <div class="col-span-full md:col-span-1">
+                    <div class="bg-[#0F1F4B] rounded-3xl">
+                        <div class="flex flex-col items-center px-12 sm:px-24 pt-16 pb-20">
+                            <h3 class="text-xl sm:text-2xl md:text-3xl text-white font-bold capitalize leading-9 mb-3">starter</h3>
+                            <p class="text-lg text-secondary text-center font-normal leading-[150%] after:content-[''] after:block after:w-48 after:h-0.5 after:bg-[#2A407C] after:my-8">up to 3 users</p>
+                            <p class="text-2xl sm:text-3xl md:text-5xl text-white font-bold leading-9">
+                                <span class="text-lg sm:text-xl md:text-3xl">$</span>29
+                            </p>
+                            <span class="text-base text-[#8794BA] font-normal leading-9">per month</span>
+                            <a href="#" class="bg-transparent text-base text-white font-normal capitalize leading-5 mt-8 px-20 py-3 border border-[#2A407C] rounded-3xl hover:bg-white hover:text-[#2A407C] hover:shadow-xl transition duration-400">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-full md:col-span-1">
+                    <div class="bg-white rounded-3xl cus-shadow">
+                        <div class="flex flex-col items-center px-12 sm:px-24 pt-16 pb-20">
+                            <h3 class="text-xl sm:text-2xl md:text-3xl text-tertiary font-bold capitalize leading-9 mb-3">standard</h3>
+                            <p class="text-lg text-secondary text-center font-normal leading-[150%] after:content-[''] after:block after:w-48 after:h-0.5 after:bg-[#D3D9E9] after:my-8">up to 20 users</p>
+                            <p class="text-2xl sm:text-3xl md:text-5xl text-tertiary font-bold leading-9">
+                                <span class="text-lg sm:text-xl md:text-3xl">$</span>99
+                            </p>
+                            <span class="text-base text-[#8794BA] font-normal leading-9">per month</span>
+                            <a href="#" class="bg-primary text-base text-white font-normal capitalize leading-5 mt-8 px-20 py-3 border-none rounded-3xl hover:bg-[#0F1F4B] hover:border-primary hover:shadow-xl transition duration-400">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-full md:col-span-1">
+                    <div class="bg-[#0F1F4B] rounded-3xl">
+                        <div class="flex flex-col items-center px-12 sm:px-24 pt-16 pb-20">
+                            <h3 class="text-xl sm:text-2xl md:text-3xl text-white font-bold capitalize leading-9 mb-3">premium</h3>
+                            <p class="text-lg text-secondary text-center font-normal leading-[150%] after:content-[''] after:block after:w-48 after:h-0.5 after:bg-[#2A407C] after:my-8">up to 200 users</p>
+                            <p class="text-2xl sm:text-3xl md:text-5xl text-white font-bold leading-9">
+                                <span class="text-lg sm:text-xl md:text-3xl">$</span>299
+                            </p>
+                            <span class="text-base text-[#8794BA] font-normal leading-9">per month</span>
+                            <a href="#" class="text-base text-white font-normal capitalize leading-5 mt-8 px-20 py-3 border border-[#2A407C] rounded-3xl hover:bg-white hover:text-[#2A407C] hover:shadow-xl transition duration-400">order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-text py-8 before:content-[''] before:block before:max-w-full before:h-0.5 before:bg-[#2A407C] before:my-16">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="col-span-1 place-self-start flex items-center">
+                        <a href="#" class="inline-block">
+                            <img src="./img/logo-black.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="col-span-2 place-self-center hidden md:flex">
+                        <div class="flex items-center space-x-8 space-y-4 md:space-y-0">
+                            <a href="#" class="text-base text-secondary font-normal capitalize leading-5">product</a>
+                            <a href="#" class="text-base text-secondary font-normal capitalize leading-5">pricing plans</a>
+                            <a href="#" class="text-base text-secondary font-normal uppercase leading-5">faq</a>
+                            <a href="#" class="text-base text-secondary font-normal capitalize leading-5">blog</a>
+                        </div>
+                    </div>
+                    <div class="col-span-1 place-self-end flex items-center space-x-6 space-y-4 md:space-y-0">
+                        <a href="#" class="inline-block">
+                            <i class="fab fa-facebook-f text-secondary text-2xl"></i>
+                        </a>
+                        <a href="#" class="inline-block">
+                            <i class="fab fa-twitter text-secondary text-2xl"></i>
+                        </a>
+                        <a href="#" class="inline-block">
+                            <i class="fab fa-instagram text-secondary text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
